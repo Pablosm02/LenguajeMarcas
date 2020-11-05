@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<font face="Comic Sans">
+
     <meta charset="UTF-8">
     <title>ex1</title>
-</font>
+
 
 </head>
 <body>
-<font face="Verdana">
-<center>
+<form>
 <table>
-<font face="Verdana">
-    <thead align="center" bgcolor="#2A9DD0"><td colspan="2">IES ALIXAR LOGIN</td></thead>
-</font>
+
+    <thead bgcolor="#2A9DD0"><th colspan="2">IES ALIXAR LOGIN</th></thead>
+
     <tr>
         <td><label for="nombre">usuario:</label></td>
         <td><input type="text" name="usuario"/></td>
@@ -27,17 +26,17 @@
         <td><input type="date"/></td>
     </tr>
     <tr>
-        <td>curso de matriculacion:</td>
-        <td><input list="curso de matriculacion"/>
-            <datalist id="curso de matriculacion">
-                <option value="primero DAW"/>
-                <option value="segundo DAW"/>
-                <option value="Bachillerato"/>
-                <option value="ESO"/>
-            </datalist>
+       
+        <td><label for="curso de matriculacion">curso de matriculacion</label></td>
+            <td><select name="curso de matriculacion">
+                <option selected>primero de DAW</option>
+                <option >segundo de DAW</option>
+                <option >ESO</option>   
+                <option >bachillerato</option>
+            </select>
         </td>
     </tr>
-    <!-- aqui me quede-->
+    
     <tr >
         <td rowspan="4"><label for="dispositivos">role:</label><br /></td>
         <td><input type="radio" value="0" name="asignacion"/>estudiante</td>
@@ -50,20 +49,19 @@
     <tr>
         <td rowspan="4"><label for="comunicacion">forma de comunicacion:</label></td>
     </tr>
-    <tr><td><input type="checkbox" value="email" checked/>mail</td></tr>
+    <tr><td><input type="checkbox" value="email"/>mail</td></tr>
     <tr><td><input type="checkbox" value="tlfn" />telefono</td></tr>
     <tr><td><input type="checkbox" value="mail" />correo ordinario</td></tr>
-    <tr colspan="4">
+    <tfoot >
 
-        <td align="right"><input type="submit" value="enviar"/></td>
-        <td align="left"><input type="reset" value="borrar"/></td>
+        <th colspan="2"><input type="submit" value="enviar"/>
+        <input type="reset" value="borrar"/></th>
 
-    </tr>
+    </tfoot>
 
 
 
 
 </table>
-</center>
-</font>
+</form>
 </body>
