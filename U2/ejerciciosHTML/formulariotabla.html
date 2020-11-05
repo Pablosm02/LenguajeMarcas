@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<font face="Comic Sans">
+    <meta charset="UTF-8">
+    <title>ex1</title>
+</font>
+
+</head>
+<body>
+<font face="Verdana">
+<center>
+<table>
+<font face="Verdana">
+    <thead align="center" bgcolor="#2A9DD0"><td colspan="2">IES ALIXAR LOGIN</td></thead>
+</font>
+    <tr>
+        <td><label for="nombre">usuario:</label></td>
+        <td><input type="text" name="usuario"/></td>
+    </tr>
+    <tr>
+        <td><label for="contra">Contraseña:</label></td>
+        <td><input type="password"/></td>
+    </tr>
+    <tr>
+        <td><label for="fecha">fecha de nacimiento:</label></td>
+        <td><input type="date"/></td>
+    </tr>
+    <tr>
+        <td>curso de matriculacion:</td>
+        <td><input list="curso de matriculacion"/>
+            <datalist id="curso de matriculacion">
+                <option value="primero DAW"/>
+                <option value="segundo DAW"/>
+                <option value="Bachillerato"/>
+                <option value="ESO"/>
+            </datalist>
+        </td>
+    </tr>
+    <!-- aqui me quede-->
+    <tr >
+        <td rowspan="4"><label for="dispositivos">role:</label><br /></td>
+        <td><input type="radio" value="0" name="asignacion"/>estudiante</td>
+    </tr>
+    <tr>
+        <td><input type="radio" value="1" name="asignacion"/>profesor</td>
+    </tr>
+    <tr><td><input type="radio" value="2" name="asignacion"/>apoyo</td></tr>
+    <tr><td><input type="radio" value="3" name="asignacion"/>staff</td></tr>
+    <tr>
+        <td rowspan="4"><label for="comunicacion">forma de comunicacion:</label></td>
+    </tr>
+    <tr><td><input type="checkbox" value="email" checked/>mail</td></tr>
+    <tr><td><input type="checkbox" value="tlfn" />telefono</td></tr>
+    <tr><td><input type="checkbox" value="mail" />correo ordinario</td></tr>
+    <tr colspan="4">
+
+        <td align="right"><input type="submit" value="enviar"/></td>
+        <td align="left"><input type="reset" value="borrar"/></td>
+
+    </tr>
+
+
+
+
+</table>
+</center>
+</font>
+</body>
