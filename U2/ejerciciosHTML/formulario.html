@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prueba</title>
+</head>
+<body>
+<h1 align="center">HOJA DE INSCRIPCION</h1>
+<H1 ALIGN="CENTER">EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</H1>
+<form>
+
+    <fieldset style="background-color:#BBBBBB"> <legend style="background-color:white; border:1px solid black">Datos Personales</legend>
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre:</label></td>
+                <td><label for="apellidos">Apellidos:</label></td>
+                <td><label for="DNI">DNI</label></td>
+            </tr>
+            <tr>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+            </tr>
+            <tr>
+                <td><label for="nacimiento"> Localidad Nacimiento:</label></td>
+                <td><label for="provincia">Provincia:</label></td>
+                <td><label for="fecha">Fecha de nacimiento</label></td>
+            </tr>
+            <tr>
+                <td><input type="text"/></td>
+                <td><select name="province" style="width:140px">
+                    <option>Huelva</option>
+                    <option>Sevilla</option>
+                    <option>Cádiz</option>
+                    <option>Córdoba</option>
+                    <option>Málaga</option>
+                    <option>Granada</option>
+                    <option>Jaén</option>
+                    <option>Almería</option>
+                </select>
+                </td>
+                <td><input type="date"/></td>
+            </tr>
+            <tr>
+                <td colspan="2">Direccion:</td>
+                <td>Codigo Postal:</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" style="width:280px"/></td>
+                <td><input type="number"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset style="background-color:#F5AA01">
+        <legend style="background-color:white; border:1px solid black">Forma de Acceso</legend>
+            <table>
+                <TR>
+                    <td colspan="2"><input type="radio" name="acceso"/>Direct</td>
+                </TR>
+                <tr>
+                    <td style="width:40px"></td>
+                    <td><input type="radio" name="acceso"/>Bachillerato LOGSE modalidad <input type=""text/></td>
+                </tr>
+                <tr>
+                    <td style="width:40px"></td>
+                    <td><input type="radio" name="acceso"/>Bachillerato experimental</td>
+                </tr>
+                <tr>
+                    <td style="width:40px"></td>
+                    <td><input type="radio" name="acceso"/>COU opcion<input type="text"/></td>
+                </tr>
+                <tr>
+                    <td style="width:40px"></td>
+                    <td><input type="radio" name="acceso"/>FP2</td>
+                </tr>
+                <tr>
+                    <td style="width:40px"></td>
+                    <td><input type="radio" name="acceso"/>Otros(especifique) <input type="text"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="radio" name="acceso"/>Prueba libre</td>
+                </tr>
+            </table>
+    </fieldset>
+    <fieldset style="background-color:#E1270A">
+        <legend style="background-color:white ; border:1px solid black">Documentos Adjuntos</legend>
+        <table>
+            <tr>
+                <td style="width:120px"><input type="checkbox"/>Fotocopia DNI</td>
+                <td style="width:80px"></td>
+                <td><input type="checkbox"/>Certificado academico</td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="checkbox"/>Otros Documentos(Especifique) <input type="text" style="width:260px"/></td>
+            </tr>
+        </table>
+    </fieldset>
+</br>
+    <input type="submit" value="Enviar Solicitud"/>
+</form>
+</body>
+</html>
