@@ -1,0 +1,24 @@
+td.prog {
+    background-color: white;
+}
+td.bbdd {
+    background-color: orange;
+}
+td.si {
+    background-color: brown;
+}
+td.endes {
+    background-color: red;
+}
+th.titulo {
+    background-color: pink;
+}
+th.hora {
+    background-color: yellow;
+}
+td.FOL {
+    background-color: green;
+}
+td.LM {
+    background-color: blue;
+}
