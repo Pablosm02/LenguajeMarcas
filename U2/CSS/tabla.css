@@ -1,0 +1,32 @@
+td.colum {
+    background-color: red;
+    color: white;
+    text-align :center;
+}
+td.lista{
+    color: red;
+}
+td.head{
+    background-color: blue;
+    
+    
+    text-align: center  ;
+}
+td.capacidad{
+    background-color: cadetblue ;
+    text-align :center;
+}
+#list{
+    background-color: blue;
+    text-align :center;
+}
+td.azul{
+    background-color: blue;
+    text-align :center;
+}
+#amarillo{
+    background-color: yellow;
+    text-align :center;
+}
+
+

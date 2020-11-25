@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ej4</title>
+    
+    
+</head>
+<body style="font;Arial">
+    <table border="2px" style="border-color:blue">
+        <tr><td><h3>Reservation Request</h3></td></tr>
+        <tr rowspan="4"><td><form>
+            <fieldset style="border-color: blue;";> <legend style="color: blue;">General Information</legend>
+                <table>
+                    <tr>
+                        <td> <label for="arrival">Arrival Date:</label></td>
+                        <td><input type="text"></td>
+                        <td colspan="2" style="color:red; padding-left: 30px; padding-right: 50px;">Arrival date is invalid</td>
+                    </tr>
+                    <tr>
+                        <td><label for="noches">Nights</label></td>
+                        <td><input type="number"></td>
+                        <td colspan="2" style="color:red; padding-left: 30px; padding-right: 50px;">Night must be a number</td>
+                    </tr>
+                    <tr>
+                        <td><label for="adultos">Adults:</label></td>
+                        <td><select name="m">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="niños">Children</label></td>
+                        <td><select name="childrens">
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select></td>
+                    </tr>
+                </table>
+               
+            
+            
+            </fieldset>
+            <fieldset style="border-color:blue"><legend style="color:blue">Preferences</legend>
+                <table>
+                    <tr>
+                        <td><label for="room">Room Type:</label></td>
+                        <td><input type="radio" name="habitaculo"/>Standard<input type="radio" name="habitaculo"/>  Business<input type="radio" name="habitaculo"/>Suite</td>
+                    </tr>
+                    <tr>
+                        <td><label for="Bedtype">Bed type:</label></td>
+                        <td><input type="radio" name="cama"/>King<input type="radio" name="cama"/>  Double Double</b></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"/>Smoking</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset style="border-color: blue;"><legend>Contact Information</legend>
+                <table>
+                    <tr>
+                        <td> <label for="nombre">name:</label></td>
+                        <td><input type="text"></td>
+                        <td colspan="2" style="color:red; padding-left: 30px; padding-right: 50px;">Name is required</td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Email">Email:</label></td>
+                        <td><input type="email"></td>
+                        <td colspan="2" style="color:red; padding-left: 30px; padding-right: 50px;">Email address is invalid</td>
+                    </tr>
+                    <tr>
+                        <td> <label for="tlfn">Phone:</label></td>
+                        <td><input type="text"></td>
+                        <td colspan="2" style="color:red; padding-left: 30px; padding-right: 50px;">Phone umber is invalid</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <table>
+                <tr>
+                    <td style="padding-left: 10px;padding-top: 15px;padding-bottom: 15px; "><input type="submit" value="submit Reservation"></td>
+                    <td style="padding-left: 30px;padding-top: 15px;padding-bottom: 15px; "><input type="reset" value="Clear" style="width: 140px;"></td>
+                </tr>
+            </table>
+        </tr>
+        </form>
+        
+    
+    
+    
+    
+    
+    
+    
+    </table>
+
+</body>
+</html>
