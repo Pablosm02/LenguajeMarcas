@@ -1,0 +1,17 @@
+el estilo: body {background-color: tan} añade color al fondo del body(cuerpo) mediante el background-color.
+
+el estilo: h1 {color:maroon; font-size:20pt} añade color marron al texto y un tamaño de fuente de 20 pt a todos los <h1>, aumentando el tamaño de la letra.
+
+el estilo: hr {color:navy} da color navy(azul) al texto en <hr>
+
+el estilo p {font-size:12pt; margin-left: 15px} añade tamaño de fuente de 12 pt y un margen a la izq de 15 pixeles a toda las etiquetas.(el margen es lo siguiente al padding, estando fuera de la caja) <p>
+
+el estilo p.verse {color:maroon; margin-left: 60px} es una clase llamada verse que da color marron al texto junto a un margen de 60 px.
+
+el estilo a:link     {color:green} es un pseudoselector de estado que da color verde al link.
+
+el estilo a:visited  {color:yellow} es un pseudoselector de estado que da color amarillo cuando se clicka para visitar.
+
+el estilo a:hover    {color:black} es un pseudoselector de estado que da color negro cuando se pone el cursor encima de el enlace.
+
+el estilo a:active   {color:blue} es un pseudoselector de estado que da color azul cuando se pulsa sobre el enlace.

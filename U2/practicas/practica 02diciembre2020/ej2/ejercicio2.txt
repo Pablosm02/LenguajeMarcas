@@ -1,0 +1,2 @@
+se muestran diferentes debido a que se les ha aplicado diferentes estilos, siendo la de los dos primeros parrafos la clase "verse", y los cinco uktimos contar sin clase y estar asociado a un estilo para <p> en general.
+

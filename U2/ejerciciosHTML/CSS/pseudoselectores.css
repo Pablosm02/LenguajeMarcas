@@ -1,0 +1,29 @@
+tbody th {
+    background-color: yellow;
+} 
+tbody td:first-child{
+    background-color: lime;
+}
+caption{
+    color:green
+}
+caption a:first-of-type{
+    text-decoration: none;
+    color:green;
+}
+caption a:visited{
+    color:red;
+    target:_blank;
+}
+thead th::first-letter{
+    font-size: 2em;
+}
+input:first-of-type{
+
+    border-color: red;
+    margin:5px;
+}
+body label::after{
+    content: "*";
+    color:red;
+}
