@@ -1,0 +1,149 @@
+
+
+body{
+   
+    height: 100%;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+    background-color: ivory;
+}
+
+#logo_container{
+    display: inline-block;
+    height:32px;
+    width:197px;
+    padding-left: 5%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+#left_menu{
+    display: inline-block;
+    padding-left: 1%;
+}
+
+#right_menu{
+    display: inline-block;
+    text-align: center;
+    margin-left: 30%;
+}
+
+#submit{
+    
+    text-align: right;
+}
+#main{
+    height: 60%;
+   padding-bottom: 8%;
+    width: 100%;
+    background-image: url("./FreeGreatPicture.com-16094-high-resolution-color-background.jpg");
+    background-image: no-repeat;
+background-image: fixed;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#texto{
+    display: inline-block;
+    text-align: center;
+    color:white;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#form{
+    color:white;
+    padding-top:0% ;
+    display:inline-block;
+    height: 90%;
+    float:right;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+#commentbox{
+    height: 40px;
+}
+
+#encabe{
+    text-align: center;
+    background-color: white;
+}
+
+#primero{
+    text-align: center;
+    display:inline-block;
+    width: 33%;
+}
+#segundo{
+    text-align: center;
+    width: 33%;
+    display:inline-block;
+}
+#tercero{
+    text-align: center;
+    width: 33%;
+    display:inline-block;
+}
+
+.how1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.how{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+
+.letra_form{
+    color:white;
+}
+
+#submit{
+    text-align: right;
+    padding-top: 10px   ;
+}
+
+#submitt{
+    background-color: orangered;
+    border: none;
+    color: white;
+    height: 25px;
+    width: 45%;
+}
+
+.p_how{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.p1_how{
+    font-size: 35px;
+}
+
+.last_div{
+    background-color: rgb(216, 210, 210);
+    padding: 40px;
+    width: 100%;
+}
+
+.image{
+    display: inline-block;
+    width: 33%;
+}
+
+.image img{
+    display: inline-block;
+    width: 100%;
+    height: 350px;
+    padding: 7px;
+}
